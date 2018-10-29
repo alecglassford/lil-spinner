@@ -8,6 +8,6 @@ It'll only work in browsers with [custom elements v1 support](https://caniuse.co
 
 ## Use it
 
-Load this script somewhere in your HTML: `<script src="https://unpkg.com/lil-spinner/1.0.0/build/bundle.js"></script>` 
+Load this script somewhere in your HTML: `<script src="https://unpkg.com/lil-spinner@1.0.0/build/bundle.js"></script>` 
 
 And use this in the HTML where you want a spinner to show up: `<lil-spinner></lil-spinner>`
