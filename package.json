@@ -1,6 +1,6 @@
 {
   "name": "lil-spinner",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A lil spinner custom element",
   "keywords": [
     "spinner",
@@ -21,15 +21,16 @@
     "email": "glassford@cs.stanford.edu",
     "url": "https://alecglassford.com"
   },
-  "main": "build/bundle.js",
+  "module": "Spinner.html",
+  "browser": "build/bundle.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
   "devDependencies": {
-    "rollup": "^0.66.6",
-    "rollup-plugin-svelte": "^4.3.2",
+    "rollup": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^3.0.0",
-    "svelte": "^2.15.0"
+    "svelte": "^2.16.0"
   }
 }
