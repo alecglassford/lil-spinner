@@ -8,6 +8,8 @@ It'll only work in browsers with [custom elements v1 support](https://caniuse.co
 
 ## Use it
 
-Load this script somewhere in your HTML: `<script src="https://unpkg.com/lil-spinner@1.0.0/build/bundle.js"></script>` 
+Load this script somewhere in your HTML: `<script src="https://unpkg.com/lil-spinner"></script>` 
 
 And use this in the HTML where you want a spinner to show up: `<lil-spinner></lil-spinner>`
+
+Or, if you are using this in another Svelte 3 component, you can `import Spinner from 'lil-spinner';` (in conjunction with [`@rollup/plugin-node-resolve`](https://github.com/rollup/plugins/tree/master/packages/node-resolve#readme) or something like that).

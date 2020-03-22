@@ -1,10 +1,11 @@
+import resolve from '@rollup/plugin-node-resolve';
 import svelte from 'rollup-plugin-svelte';
 import { terser } from 'rollup-plugin-terser';
 
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: 'Spinner.html',
+  input: 'Spinner.svelte',
   output: {
     sourcemap: true,
     format: 'iife',
@@ -14,8 +15,10 @@ export default {
   plugins: [
     svelte({
       dev: !production,
-      customElement: true
+      customElement: true,
+      tag: 'lil-spinner'
     }),
+    resolve(),
     production && terser()
   ]
 };

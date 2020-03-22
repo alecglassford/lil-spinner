@@ -21,8 +21,3 @@
     }
   }
 </style>
-<script>
-  export default {
-    tag: 'lil-spinner',
-  }
-</script>
