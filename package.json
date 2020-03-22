@@ -21,6 +21,10 @@
     "email": "glassford@cs.stanford.edu",
     "url": "https://alecglassford.com"
   },
+  "files": [
+    "build/*",
+    "Spinner.svelte"
+  ],
   "module": "Spinner.svelte",
   "unpkg": "build/bundle.js",
   "scripts": {
